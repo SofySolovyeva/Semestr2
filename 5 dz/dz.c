@@ -5,7 +5,7 @@
 
 int main()
 {
-    setlocale(LC_ALL, "Rus");
+    setlocale(LC_ALL, "chcp 65001");
 
     time_t start, end;
     int num1, num2, num3, siz = sizeof(int), timelim = 30;
