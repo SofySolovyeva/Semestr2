@@ -33,9 +33,6 @@ void C() {
     printf("\t\t\t\t\t\t   C() RETURN <-\n");
 }
 
-
-
-
 /*
 Упражнение 1.
 

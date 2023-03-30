@@ -30,7 +30,6 @@ int Gorisontal(double x, double y){
 }
 
 int Wertical(double x, double y){
-
     int res = -1;
     res = (x > 4);
     return res;
