@@ -14,6 +14,8 @@ int main(){
     printf("%lf\n", x);
     printf("%lf\n", y);
     printf("%d", (!Wertical(x, y) && !Gorisontal(x, y) && Bissectrice(x, y)) || (Wertical(x, y) && Gorisontal(x, y)));
+    printf("%lf\n", x);
+    printf("%lf\n", y);
 	return 0;
 }
 
@@ -46,3 +48,4 @@ int Wertical(double x, double y){
 // 8) x = 4, y = -4, answer = 1 
 // 9) x = -5, y = -4, answer = 1 
 // 10) x = -1, y = 0, answer = 1 
+// 11 x = 98, y = 99
